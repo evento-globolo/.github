@@ -1,0 +1,628 @@
+{
+  "$schema": "./repository-relationships.schema.json",
+  "audience": "public",
+  "generated": {
+    "complete_for_visibility": "public",
+    "generated_at": "2026-08-05T23:41:16Z",
+    "generator_version": "2026-08-04.1",
+    "inventory_digest": "sha256:d95eebec792414f0d23de257ad1fdb70909113ef15b464fae5ebca0e352a0708",
+    "managed_by": "ore-repository-relationship-rollout",
+    "omitted_repository_count": 0,
+    "private_repositories_omitted": false,
+    "source": "GitHub GraphQL repository inventory plus reviewed manual declarations"
+  },
+  "owner": {
+    "account_type": "organization",
+    "dotgithub_repository": "evento-globolo/.github",
+    "github_id": "313128930",
+    "linear_project": {
+      "id": "ca99596f-9b70-4df9-9d1f-b6e76bd30e82",
+      "name": "github.com/evento-globolo",
+      "team_id": "eb8ab169-5afe-4b6f-9cab-3f2aa3e887dc",
+      "url": "https://linear.app/denman/project/githubcomevento-globolo-4daaf1952e29",
+      "workspace": "denman"
+    },
+    "login": "evento-globolo",
+    "mapping_id": "context:evento-globolo"
+  },
+  "private_registry": {
+    "contains_non_public_inventory": false,
+    "digest": "sha256:fac1b00b084ec8d87816dbb51ed6472d20d213173bc92b5ca2935ded1e96dc35",
+    "path": "owners/evento-globolo.json",
+    "repository": "approved-private-registry"
+  },
+  "relationships": [
+    {
+      "confidence": 1.0,
+      "evidence": [
+        {
+          "kind": "github-owner-membership",
+          "source": "GitHub GraphQL repository inventory"
+        }
+      ],
+      "from": "evento-globolo/.github",
+      "id": "sha256:2a4e6488171d9d8e9d81a87da562fa7206725f6bc824e2a6cf28f2b4df862254",
+      "notes": "Organization .github policy and community-health defaults govern this sibling repository.",
+      "required": true,
+      "scope": "organization",
+      "status": "declared",
+      "to": "evento-globolo/evento-globolo-clients",
+      "type": "governs"
+    },
+    {
+      "confidence": 1.0,
+      "evidence": [
+        {
+          "kind": "github-owner-membership",
+          "source": "GitHub GraphQL repository inventory"
+        }
+      ],
+      "from": "evento-globolo/.github",
+      "id": "sha256:e65015d3d97f5eca8543e4318e070d51d1c0c173917b704f7aaef1770493788b",
+      "notes": "Organization .github policy and community-health defaults govern this sibling repository.",
+      "required": true,
+      "scope": "organization",
+      "status": "declared",
+      "to": "evento-globolo/evento-globolo-libs",
+      "type": "governs"
+    },
+    {
+      "confidence": 1.0,
+      "evidence": [
+        {
+          "kind": "github-owner-membership",
+          "source": "GitHub GraphQL repository inventory"
+        }
+      ],
+      "from": "evento-globolo/.github",
+      "id": "sha256:8cd2d779cea0c301e579c525091e058c686febcace3b3e7d257f4834c36afe01",
+      "notes": "Organization .github policy and community-health defaults govern this sibling repository.",
+      "required": true,
+      "scope": "organization",
+      "status": "declared",
+      "to": "evento-globolo/evento-globolo-monorepo",
+      "type": "governs"
+    },
+    {
+      "confidence": 1.0,
+      "evidence": [
+        {
+          "kind": "github-owner-membership",
+          "source": "GitHub GraphQL repository inventory"
+        }
+      ],
+      "from": "evento-globolo/.github",
+      "id": "sha256:9a0814db41aa2a2007c373e46f36c04fe4f415d284fd3e12a6c1b83048552943",
+      "notes": "Organization .github policy and community-health defaults govern this sibling repository.",
+      "required": true,
+      "scope": "organization",
+      "status": "declared",
+      "to": "evento-globolo/evento-globolo.github.io",
+      "type": "governs"
+    },
+    {
+      "confidence": 1.0,
+      "evidence": [
+        {
+          "kind": "github-owner-membership",
+          "source": "GitHub GraphQL repository inventory"
+        }
+      ],
+      "from": "evento-globolo/.github",
+      "id": "sha256:845016444476bde447a8fd757a746df198014981f0974a623423958c79975714",
+      "notes": "Organization .github policy and community-health defaults govern this sibling repository.",
+      "required": true,
+      "scope": "organization",
+      "status": "declared",
+      "to": "evento-globolo/evgl-api",
+      "type": "governs"
+    },
+    {
+      "confidence": 1.0,
+      "evidence": [
+        {
+          "kind": "github-owner-membership",
+          "source": "GitHub GraphQL repository inventory"
+        }
+      ],
+      "from": "evento-globolo/.github",
+      "id": "sha256:d1d39570609d0ea930e00c639fde12c1f3c6b827e1f1ddb235fd7d20b6068757",
+      "notes": "Organization .github policy and community-health defaults govern this sibling repository.",
+      "required": true,
+      "scope": "organization",
+      "status": "declared",
+      "to": "evento-globolo/evgl-cli",
+      "type": "governs"
+    },
+    {
+      "confidence": 1.0,
+      "evidence": [
+        {
+          "kind": "github-owner-membership",
+          "source": "GitHub GraphQL repository inventory"
+        }
+      ],
+      "from": "evento-globolo/.github",
+      "id": "sha256:d0765d4d2318c28b8cb82085f3847caec470369cc5874cef66034b763177db12",
+      "notes": "Organization .github policy and community-health defaults govern this sibling repository.",
+      "required": true,
+      "scope": "organization",
+      "status": "declared",
+      "to": "evento-globolo/evgl-clients",
+      "type": "governs"
+    },
+    {
+      "confidence": 1.0,
+      "evidence": [
+        {
+          "kind": "github-owner-membership",
+          "source": "GitHub GraphQL repository inventory"
+        }
+      ],
+      "from": "evento-globolo/.github",
+      "id": "sha256:be17a56edd782e8236e91ceab42add321eb48c02707906fac5813822789d816c",
+      "notes": "Organization .github policy and community-health defaults govern this sibling repository.",
+      "required": true,
+      "scope": "organization",
+      "status": "declared",
+      "to": "evento-globolo/evgl-dioxus-web",
+      "type": "governs"
+    },
+    {
+      "confidence": 1.0,
+      "evidence": [
+        {
+          "kind": "github-owner-membership",
+          "source": "GitHub GraphQL repository inventory"
+        }
+      ],
+      "from": "evento-globolo/.github",
+      "id": "sha256:cb490792e203c59c9310f08c429077911c5f7b08e1a3641b03bdadab67484ee0",
+      "notes": "Organization .github policy and community-health defaults govern this sibling repository.",
+      "required": true,
+      "scope": "organization",
+      "status": "declared",
+      "to": "evento-globolo/evgl-infra",
+      "type": "governs"
+    },
+    {
+      "confidence": 1.0,
+      "evidence": [
+        {
+          "kind": "github-owner-membership",
+          "source": "GitHub GraphQL repository inventory"
+        }
+      ],
+      "from": "evento-globolo/.github",
+      "id": "sha256:95b6274a83766ac4d5250901c49f163dc62581ae6c199864589b30cbcbafcd35",
+      "notes": "Organization .github policy and community-health defaults govern this sibling repository.",
+      "required": true,
+      "scope": "organization",
+      "status": "declared",
+      "to": "evento-globolo/evgl-interfaces",
+      "type": "governs"
+    },
+    {
+      "confidence": 1.0,
+      "evidence": [
+        {
+          "kind": "github-owner-membership",
+          "source": "GitHub GraphQL repository inventory"
+        }
+      ],
+      "from": "evento-globolo/.github",
+      "id": "sha256:f711c582da6e80417a18af03ab9e3b86e9f0d93f955cc1fb8c6a3e4160aef796",
+      "notes": "Organization .github policy and community-health defaults govern this sibling repository.",
+      "required": true,
+      "scope": "organization",
+      "status": "declared",
+      "to": "evento-globolo/evgl-leptos-web",
+      "type": "governs"
+    },
+    {
+      "confidence": 1.0,
+      "evidence": [
+        {
+          "kind": "github-owner-membership",
+          "source": "GitHub GraphQL repository inventory"
+        }
+      ],
+      "from": "evento-globolo/.github",
+      "id": "sha256:6bd249ed802eceb406affb86bf61f9432df34bf44c054c633168f06dcdfce774",
+      "notes": "Organization .github policy and community-health defaults govern this sibling repository.",
+      "required": true,
+      "scope": "organization",
+      "status": "declared",
+      "to": "evento-globolo/evgl-libs",
+      "type": "governs"
+    },
+    {
+      "confidence": 1.0,
+      "evidence": [
+        {
+          "kind": "github-owner-membership",
+          "source": "GitHub GraphQL repository inventory"
+        }
+      ],
+      "from": "evento-globolo/.github",
+      "id": "sha256:8b217275c78bb65835f1b04b21d325da6dd5155435d5c6492719efb5d9cc35ec",
+      "notes": "Organization .github policy and community-health defaults govern this sibling repository.",
+      "required": true,
+      "scope": "organization",
+      "status": "declared",
+      "to": "evento-globolo/evgl-mash-web",
+      "type": "governs"
+    },
+    {
+      "confidence": 1.0,
+      "evidence": [
+        {
+          "kind": "github-owner-membership",
+          "source": "GitHub GraphQL repository inventory"
+        }
+      ],
+      "from": "evento-globolo/.github",
+      "id": "sha256:4922fe9aa7495e19aec62594d961c8fb04829b7c74aa9b12af7277964cf34e31",
+      "notes": "Organization .github policy and community-health defaults govern this sibling repository.",
+      "required": true,
+      "scope": "organization",
+      "status": "declared",
+      "to": "evento-globolo/evgl-monorepo",
+      "type": "governs"
+    },
+    {
+      "confidence": 1.0,
+      "evidence": [
+        {
+          "kind": "github-owner-membership",
+          "source": "GitHub GraphQL repository inventory"
+        }
+      ],
+      "from": "evento-globolo/.github",
+      "id": "sha256:acfa9513f8859f6165223cd692cfaf8a84fcc5c6fb1f31a16f14f2cba3392bc3",
+      "notes": "Organization .github policy and community-health defaults govern this sibling repository.",
+      "required": true,
+      "scope": "organization",
+      "status": "declared",
+      "to": "evento-globolo/evgl-sync",
+      "type": "governs"
+    },
+    {
+      "confidence": 0.95,
+      "evidence": [
+        {
+          "kind": "repository-name",
+          "value": "evento-globolo.github.io"
+        }
+      ],
+      "from": "evento-globolo/evento-globolo.github.io",
+      "id": "sha256:9bcd414dc229b91999dfa711ea2af043001fe78a68773aa898a981127cbea430",
+      "notes": "The conventional *.github.io repository documents the organization profile.",
+      "required": false,
+      "scope": "organization",
+      "status": "inferred",
+      "to": "evento-globolo/.github",
+      "type": "documents"
+    },
+    {
+      "confidence": 0.82,
+      "evidence": [
+        {
+          "family": "evgl",
+          "kind": "paired-repository-naming",
+          "source_role": "api-server",
+          "target_role": "interfaces"
+        }
+      ],
+      "from": "evento-globolo/evgl-api",
+      "id": "sha256:0f32e6c0f3e7140daa53b4cf16eae6948b861201de28ae589d9c67b5f037dfe9",
+      "notes": "Conservative naming inference; confirm or override in the manual declaration file.",
+      "required": false,
+      "scope": "organization",
+      "status": "inferred",
+      "to": "evento-globolo/evgl-interfaces",
+      "type": "depends_on"
+    },
+    {
+      "confidence": 0.82,
+      "evidence": [
+        {
+          "family": "evgl",
+          "kind": "paired-repository-naming",
+          "source_role": "clients",
+          "target_role": "interfaces"
+        }
+      ],
+      "from": "evento-globolo/evgl-clients",
+      "id": "sha256:63a0b2bb91cba7da7434b3d24c7f6d34aa518609c761cf0fd4fec2d5a62e35dc",
+      "notes": "Conservative naming inference; confirm or override in the manual declaration file.",
+      "required": false,
+      "scope": "organization",
+      "status": "inferred",
+      "to": "evento-globolo/evgl-interfaces",
+      "type": "depends_on"
+    },
+    {
+      "confidence": 0.76,
+      "evidence": [
+        {
+          "family": "evgl",
+          "kind": "paired-repository-naming"
+        }
+      ],
+      "from": "evento-globolo/evgl-infra",
+      "id": "sha256:c01c2e15417c780661e609b3e7703f01f2df04a63803d723e062e692eaa0e5c2",
+      "notes": "Conservative naming inference; confirm or override in the manual declaration file.",
+      "required": false,
+      "scope": "organization",
+      "status": "inferred",
+      "to": "evento-globolo/evgl-monorepo",
+      "type": "deploys"
+    },
+    {
+      "confidence": 0.82,
+      "evidence": [
+        {
+          "family": "evgl",
+          "kind": "paired-repository-naming",
+          "source_role": "sync",
+          "target_role": "interfaces"
+        }
+      ],
+      "from": "evento-globolo/evgl-sync",
+      "id": "sha256:aa40f75cbf7989f03e6c271537a459aa55bbb35b0c7058e957251f046ff59d44",
+      "notes": "Conservative naming inference; confirm or override in the manual declaration file.",
+      "required": false,
+      "scope": "organization",
+      "status": "inferred",
+      "to": "evento-globolo/evgl-interfaces",
+      "type": "depends_on"
+    }
+  ],
+  "repositories": [
+    {
+      "archived": false,
+      "default_branch": "main",
+      "fork": false,
+      "full_name": "evento-globolo/.github",
+      "github_id": "1324266491",
+      "name": ".github",
+      "owner": "evento-globolo",
+      "roles": [
+        "community-health",
+        "governance",
+        "relationship-registry"
+      ],
+      "source": "github-graphql-api",
+      "url": "https://github.com/evento-globolo/.github",
+      "visibility": "public"
+    },
+    {
+      "archived": false,
+      "default_branch": "main",
+      "fork": false,
+      "full_name": "evento-globolo/evento-globolo-clients",
+      "github_id": "1323568562",
+      "name": "evento-globolo-clients",
+      "owner": "evento-globolo",
+      "roles": [
+        "clients"
+      ],
+      "source": "github-graphql-api",
+      "url": "https://github.com/evento-globolo/evento-globolo-clients",
+      "visibility": "public"
+    },
+    {
+      "archived": false,
+      "default_branch": "main",
+      "fork": false,
+      "full_name": "evento-globolo/evento-globolo-libs",
+      "github_id": "1323568651",
+      "name": "evento-globolo-libs",
+      "owner": "evento-globolo",
+      "roles": [
+        "repository"
+      ],
+      "source": "github-graphql-api",
+      "url": "https://github.com/evento-globolo/evento-globolo-libs",
+      "visibility": "public"
+    },
+    {
+      "archived": false,
+      "default_branch": "main",
+      "fork": false,
+      "full_name": "evento-globolo/evento-globolo-monorepo",
+      "github_id": "1323568797",
+      "name": "evento-globolo-monorepo",
+      "owner": "evento-globolo",
+      "roles": [
+        "monorepo"
+      ],
+      "source": "github-graphql-api",
+      "url": "https://github.com/evento-globolo/evento-globolo-monorepo",
+      "visibility": "public"
+    },
+    {
+      "archived": false,
+      "default_branch": "main",
+      "fork": false,
+      "full_name": "evento-globolo/evento-globolo.github.io",
+      "github_id": "1323565009",
+      "name": "evento-globolo.github.io",
+      "owner": "evento-globolo",
+      "roles": [
+        "documentation-site"
+      ],
+      "source": "github-graphql-api",
+      "url": "https://github.com/evento-globolo/evento-globolo.github.io",
+      "visibility": "public"
+    },
+    {
+      "archived": false,
+      "default_branch": "main",
+      "fork": false,
+      "full_name": "evento-globolo/evgl-api",
+      "github_id": "1323565110",
+      "name": "evgl-api",
+      "owner": "evento-globolo",
+      "roles": [
+        "api-server"
+      ],
+      "source": "github-graphql-api",
+      "url": "https://github.com/evento-globolo/evgl-api",
+      "visibility": "public"
+    },
+    {
+      "archived": false,
+      "default_branch": "main",
+      "fork": false,
+      "full_name": "evento-globolo/evgl-cli",
+      "github_id": "1323565155",
+      "name": "evgl-cli",
+      "owner": "evento-globolo",
+      "roles": [
+        "repository"
+      ],
+      "source": "github-graphql-api",
+      "url": "https://github.com/evento-globolo/evgl-cli",
+      "visibility": "public"
+    },
+    {
+      "archived": false,
+      "default_branch": "main",
+      "fork": false,
+      "full_name": "evento-globolo/evgl-clients",
+      "github_id": "1323565213",
+      "name": "evgl-clients",
+      "owner": "evento-globolo",
+      "roles": [
+        "clients"
+      ],
+      "source": "github-graphql-api",
+      "url": "https://github.com/evento-globolo/evgl-clients",
+      "visibility": "public"
+    },
+    {
+      "archived": false,
+      "default_branch": "main",
+      "fork": false,
+      "full_name": "evento-globolo/evgl-dioxus-web",
+      "github_id": "1323565305",
+      "name": "evgl-dioxus-web",
+      "owner": "evento-globolo",
+      "roles": [
+        "repository"
+      ],
+      "source": "github-graphql-api",
+      "url": "https://github.com/evento-globolo/evgl-dioxus-web",
+      "visibility": "public"
+    },
+    {
+      "archived": false,
+      "default_branch": "main",
+      "fork": false,
+      "full_name": "evento-globolo/evgl-infra",
+      "github_id": "1323565341",
+      "name": "evgl-infra",
+      "owner": "evento-globolo",
+      "roles": [
+        "infrastructure"
+      ],
+      "source": "github-graphql-api",
+      "url": "https://github.com/evento-globolo/evgl-infra",
+      "visibility": "public"
+    },
+    {
+      "archived": false,
+      "default_branch": "main",
+      "fork": false,
+      "full_name": "evento-globolo/evgl-interfaces",
+      "github_id": "1323565428",
+      "name": "evgl-interfaces",
+      "owner": "evento-globolo",
+      "roles": [
+        "interfaces"
+      ],
+      "source": "github-graphql-api",
+      "url": "https://github.com/evento-globolo/evgl-interfaces",
+      "visibility": "public"
+    },
+    {
+      "archived": false,
+      "default_branch": "main",
+      "fork": false,
+      "full_name": "evento-globolo/evgl-leptos-web",
+      "github_id": "1323565475",
+      "name": "evgl-leptos-web",
+      "owner": "evento-globolo",
+      "roles": [
+        "repository"
+      ],
+      "source": "github-graphql-api",
+      "url": "https://github.com/evento-globolo/evgl-leptos-web",
+      "visibility": "public"
+    },
+    {
+      "archived": false,
+      "default_branch": "main",
+      "fork": false,
+      "full_name": "evento-globolo/evgl-libs",
+      "github_id": "1323565521",
+      "name": "evgl-libs",
+      "owner": "evento-globolo",
+      "roles": [
+        "repository"
+      ],
+      "source": "github-graphql-api",
+      "url": "https://github.com/evento-globolo/evgl-libs",
+      "visibility": "public"
+    },
+    {
+      "archived": false,
+      "default_branch": "main",
+      "fork": false,
+      "full_name": "evento-globolo/evgl-mash-web",
+      "github_id": "1323565584",
+      "name": "evgl-mash-web",
+      "owner": "evento-globolo",
+      "roles": [
+        "repository"
+      ],
+      "source": "github-graphql-api",
+      "url": "https://github.com/evento-globolo/evgl-mash-web",
+      "visibility": "public"
+    },
+    {
+      "archived": false,
+      "default_branch": "main",
+      "fork": false,
+      "full_name": "evento-globolo/evgl-monorepo",
+      "github_id": "1323565650",
+      "name": "evgl-monorepo",
+      "owner": "evento-globolo",
+      "roles": [
+        "monorepo"
+      ],
+      "source": "github-graphql-api",
+      "url": "https://github.com/evento-globolo/evgl-monorepo",
+      "visibility": "public"
+    },
+    {
+      "archived": false,
+      "default_branch": "main",
+      "fork": false,
+      "full_name": "evento-globolo/evgl-sync",
+      "github_id": "1323565740",
+      "name": "evgl-sync",
+      "owner": "evento-globolo",
+      "roles": [
+        "sync"
+      ],
+      "source": "github-graphql-api",
+      "url": "https://github.com/evento-globolo/evgl-sync",
+      "visibility": "public"
+    }
+  ],
+  "schema_version": 1,
+  "unresolved_hints": []
+}
