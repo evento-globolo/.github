@@ -28,3 +28,12 @@ Documentation branches must be reviewed through pull requests and merged after c
 - **Composition:** committed canonical gitlinks are allowed as source transport and must be adopted with `zed overtake --git-submodules`; duplicate package identities and long-name aliases are prohibited.
 
 GitHub Project #1 tracks execution. The Linear project tracks priority, ownership, dependencies, milestones, and delivery status. Repository, pull-request, CI, release, and runtime evidence remains in GitHub.
+
+
+## Delivery record — `evgl-mcp-server.rs` (2026-08-07)
+
+- **Canonical repository published:** https://github.com/evento-globolo/evgl-mcp-server.rs
+- **Initial commit (seed bootstrap via `publish.sh`):** `81159c12eade2e8db7cad9c00b12945d913f41d3`
+- **CI-green commit:** `6e69697b525ce696f98a8e74b35c888487240796` — formatting, Clippy, tests, and Zed manifest checks all passing
+- **Delivery issue:** [evento-globolo/.github#4](https://github.com/evento-globolo/.github/issues/4), added to organization GitHub Project #1
+- **Outstanding:** `.zpkg.lock` generation awaits a real successful Zed resolver run (DEN-2290)
