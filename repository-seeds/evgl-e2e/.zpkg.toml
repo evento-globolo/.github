@@ -1,6 +1,14 @@
 [package]
-name = "evento-globolo/evgl-e2e"
+org = "evento-globolo"
+name = "evgl-e2e"
 version = "0.1.0"
+description = "End-to-end integration package for Evento Globolo"
+license = "MIT"
+language = "polyglot"
+
+[package.repository]
+vcs = "git"
+url = "https://github.com/evento-globolo/evgl-e2e"
 
 [install]
 dir = ".vendor/.zed"
