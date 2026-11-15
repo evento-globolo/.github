@@ -98,3 +98,13 @@ This organization policy overrides generic feature-branch and worktree defaults 
 - Put every authorized worktree at `<repository-root>/tmp/worktrees/<name>`; from the repository root, use `./tmp/worktrees/<name>`. Never place worktrees beside repositories or organization directories.
 - Keep `tmp`, `temp`, `tmp/worktrees`, and `temp/worktrees` ignored in the repository-root `.gitignore`. Do not commit files from those directories.
 - Relocate or remove a worktree only when the operator explicitly requests it. Before removal, preserve and publish intended changes, verify its commit is represented on the target branch, and confirm there are no tracked, untracked, ignored-sensitive, or in-use files that must survive. Remove it with `git worktree remove <path>` without `--force`; never delete a worktree directory with `rm`.
+
+## Rust-first automation and tests
+
+For all `evento-globolo` repositories, **write new repository scripts, verification tools, tests, generators, security checks, and CI helpers in Rust, not Python**. Prefer `cargo test`, integration tests under `tests/*.rs`, or versioned Rust CLIs such as `cargo xtask`. Small shell/YAML wrappers may invoke Rust tools; do not add Python wrappers or invoke Python tests in newly introduced jobs.
+
+Existing Python scripts are migration debt, not permission to add more. Preserve current checks until a behaviorally equivalent Rust replacement passes positive and adversarial fixtures, CLI/exit-code parity, and exact-commit CI. Do not weaken security, validation, or deployment gates merely to remove Python. Track residual Python invocations and migrate incrementally.
+
+Python **product/application code** is a narrowly scoped exception only when an owner documents its runtime purpose and why another language is unsuitable. This does not extend to repo automation or tooling. For detailed guidance see [CONTRIBUTING.md](CONTRIBUTING.md#rust-first-scripts-and-automation) and [the draft policy change](https://github.com/evento-globolo/.github/pull/37).
+
+This `.github` file is not auto-inherited by every repository. Synchronize repository-local `agents.md` and `AGENTS.md` and explicitly enable CI enforcement.
